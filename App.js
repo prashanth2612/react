@@ -12,7 +12,7 @@ const Header = () =>{
           alt="App Logo"
           className="logo"
         />
-
+  
             </div>
 
 
@@ -34,10 +34,13 @@ const Header = () =>{
  const RestaurantCard = () => {
   return (
     <div className="res-card">
+        <img className="res-logo"
+        alt="res-logo" src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT86.jpg?ver=50.38"/>
        <h3>KFC</h3>
-       <img className="restcard-img"src="https://www.mashed.com/img/gallery/what-you-need-to-know-about-kfcs-brand-new-limited-time-deals/l-intro-1661912222.jpg"
-          alt="App Logo"
-/>
+       <h4>KFC, North American</h4>
+       <h4>5 star</h4>
+       <h4>30min Delivery</h4>
+
        
 
     </div>
@@ -48,9 +51,16 @@ const Header = () =>{
 const Body = () =>{
     return(
         <div className="body">
-            <div className="search"></div>
+            <div className="search">Search</div>
             <div className="res-container">
-            <RestaurantCard/>
+                <RestaurantCard/>
+                <RestaurantCard/>
+                <RestaurantCard/>
+                <RestaurantCard/>
+                <RestaurantCard/>
+                <RestaurantCard/>
+                <RestaurantCard/>
+                <RestaurantCard/>
             </div>
         
         </div>
